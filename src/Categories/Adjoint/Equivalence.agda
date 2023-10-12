@@ -66,3 +66,6 @@ setoid o ℓ e = record
   ; _≈_           = ⊣Equivalence
   ; isEquivalence = isEquivalence
   }
+
+data Test : Set where
+  test : Test
