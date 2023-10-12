@@ -63,6 +63,4 @@ isEquivalence = record
 setoid : ∀ o ℓ e → Setoid _ _
 setoid o ℓ e = record
   { Carrier       = Category o ℓ e
-  ; _≈_           = ⊣Equivalence
-  ; isEquivalence = isEquivalence
   }
